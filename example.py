@@ -9,7 +9,7 @@ def sqrt(x):
     return x**(1./2)
 
 def test_sqrt():
-    assert round(sqrt(3.0)**2) == 9
+    assert round(sqrt(3.0)**2) == 3
 
 def test_joke():
     assert "hello world" == "hello world"
