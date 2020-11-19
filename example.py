@@ -10,3 +10,6 @@ def sqrt(x):
 
 def test_sqrt():
     assert round(sqrt(3.0)**2) == 3
+
+def test_joke():
+    assert "this" == "not working"
